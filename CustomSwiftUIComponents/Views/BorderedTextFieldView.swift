@@ -32,7 +32,7 @@ struct BorderedTextFieldView: View {
             })
             
         }
-        .frame(width: .infinity, height: 80, alignment: .center)
+        .frame(height: 80, alignment: .center)
     }
 }
 

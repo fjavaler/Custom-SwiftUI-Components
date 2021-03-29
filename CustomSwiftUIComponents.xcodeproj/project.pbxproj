@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F888B9162611391C00F7E8D7 /* BorderedTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F888B9152611391C00F7E8D7 /* BorderedTextFieldView.swift */; };
 		F8A5CB2226113898002D2AC0 /* CustomSwiftUIComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5CB2126113898002D2AC0 /* CustomSwiftUIComponentsApp.swift */; };
 		F8A5CB2426113898002D2AC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5CB2326113898002D2AC0 /* ContentView.swift */; };
 		F8A5CB262611389A002D2AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A5CB252611389A002D2AC0 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F888B9152611391C00F7E8D7 /* BorderedTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedTextFieldView.swift; sourceTree = "<group>"; };
 		F8A5CB1E26113898002D2AC0 /* CustomSwiftUIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSwiftUIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A5CB2126113898002D2AC0 /* CustomSwiftUIComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwiftUIComponentsApp.swift; sourceTree = "<group>"; };
 		F8A5CB2326113898002D2AC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A5CB2126113898002D2AC0 /* CustomSwiftUIComponentsApp.swift */,
-				F8A5CB2326113898002D2AC0 /* ContentView.swift */,
+				F8A5CB32261138AE002D2AC0 /* Views */,
 				F8A5CB252611389A002D2AC0 /* Assets.xcassets */,
 				F8A5CB2A2611389A002D2AC0 /* Info.plist */,
 				F8A5CB272611389A002D2AC0 /* Preview Content */,
@@ -67,6 +69,15 @@
 				F8A5CB282611389A002D2AC0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8A5CB32261138AE002D2AC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8A5CB2326113898002D2AC0 /* ContentView.swift */,
+				F888B9152611391C00F7E8D7 /* BorderedTextFieldView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				F8A5CB2426113898002D2AC0 /* ContentView.swift in Sources */,
 				F8A5CB2226113898002D2AC0 /* CustomSwiftUIComponentsApp.swift in Sources */,
+				F888B9162611391C00F7E8D7 /* BorderedTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
